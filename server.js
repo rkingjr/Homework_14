@@ -9,7 +9,7 @@ const sequelize = require('./config/connections');
 const sequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 const hbs = handlebars.create({helpers});
 
